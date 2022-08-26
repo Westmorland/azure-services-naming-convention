@@ -2,12 +2,16 @@
 
 Defining and enforcing naming conventions for resources can help improve resource discovery, cost management, automation, and organisation of Azure resources.
 
+## General
+
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | ManagedIdentity | `Microsoft.ManagedIdentity/userAssignedIdentities` | `id-` | 3 - 128 |
 | Managementgroup | `Microsoft.Management/managementGroups` | `mg-` | ? |
 | Policydefinition | `Microsoft.Authorization/policyDefinitions` | `policy-` | 1 - 64 |
 | Resourcegroup | `Microsoft.Resources/resourceGroups` | `rg-` | 1 - 90 |
+
+## Networking
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
@@ -52,6 +56,8 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | WebApplicationFirewall(WAF)policy | `Microsoft.Network/firewallPolicies` | `waf` | 1 - 80 |
 | WebApplicationFirewall(WAF)policyrulegroup | `Microsoft.Network/firewallPolicies/ruleGroups` | `wafrg` | 1 - 80 |
 
+## Compute and Web
+
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | AppServiceenvironment | `Microsoft.Web/sites` | `ase-` | 2 - 60 |
@@ -74,12 +80,16 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | VMstorageaccount | `Microsoft.Storage/storageAccounts` | `stvm` | 3 - 34 |
 | Webapp | `Microsoft.Web/sites` | `app-` | 2 - 60 |
 
+## Containers
+
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | AKScluster | `Microsoft.ContainerService/managedClusters` | `aks-` | 1 - 63 |
 | Containerregistry | `Microsoft.ContainerRegistry/registries` | `cr` | 5 - 50 |
 | Containerinstance | `Microsoft.ContainerInstance/containerGroups` | `ci` | 1 - 63 |
 | ServiceFabriccluster | `Microsoft.ServiceFabric/clusters` | `sf-` | 4 - 23 |
+
+## Databases
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
@@ -96,16 +106,22 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | SQLServerStretchDatabase | `Microsoft.Sql/servers/databases` | `sqlstrdb-` | 1 - 128 |
 | SQLManagedInstance | `Microsoft.Sql/managedInstances` | `sqlmi-` | 1 - 63 |
 
+## Storage
+
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | Storageaccount | `Microsoft.Storage/storageAccounts` | `st` | 3 - 24 |
 | AzureStorSimple | `Microsoft.StorSimple/managers` | `ssimp` | 2 - 50 |
+
+## AI and Machine Learning
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | AzureCognitiveSearch | `Microsoft.Search/searchServices` | `srch-` | 2 - 64 |
 | AzureCognitiveServices | `Microsoft.CognitiveServices/accounts` | `cog-` | 2 - 64 |
 | AzureMachineLearningworkspace | `Microsoft.MachineLearningServices/workspaces` | `mlw-` | 2 - 16 |
+
+## Analytics and IoT
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
@@ -134,10 +150,14 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | PowerBIEmbedded | `Microsoft.PowerBIDedicated/capacities` | `pbi-` | 3 - 63 |
 | TimeSeriesInsightsenvironment | `Microsoft.TimeSeriesInsights/environments` | `tsi-` | 1 -90 |
 
+## Developer Tools
+
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
 | AppConfigurationstore | `Microsoft.AppConfiguration/configurationStores` | `appcs-` | 5 - 50 |
 | SignalR | `Microsoft.SignalRService/SignalR` | `sigr` | 3 - 63 |
+
+## Integration
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
@@ -146,6 +166,8 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | ServiceBus | `Microsoft.ServiceBus/namespaces` | `sb-` | 6 - 50 |
 | ServiceBusqueue | `Microsoft.ServiceBus/namespaces/queues` | `sbq-` | 1 - 260 |
 | ServiceBustopic | `Microsoft.ServiceBus/namespaces/topics` | `sbt-` | 1 - 260 |
+
+## Management and Governance
 
 | Resource Type | Resource Namespace | Abbreviation | Length Restrictions |
 | --- | --- | --- | --- |
