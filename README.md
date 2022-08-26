@@ -33,7 +33,7 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | Load balancer (external) | `Microsoft.Network/loadBalancers` | `lbe-`| |
 | Load balancer rule | `Microsoft.Network/loadBalancers/inboundNatRules` | `rule-`| |
 | Local network gateway | `Microsoft.Network/localNetworkGateways` | `lgw-` | |
-| NAT gateway | Microsoft.Network/natGateways | `ng-` | |
+| NAT gateway | `Microsoft.Network/natGateways` | `ng-` | |
 | Network interface (NIC) | `Microsoft.Network/networkInterfaces` | `nic-`| |
 | Network security group (NSG) | `Microsoft.Network/networkSecurityGroups` | `nsg-` | |
 | Network security group (NSG) security rules | `Microsoft.Network/networkSecurityGroups/securityRules` | `nsgsr-` | |
@@ -150,14 +150,6 @@ Defining and enforcing naming conventions for resources can help improve resourc
 | Provisioning services certificate | `Microsoft.Devices/provisioningServices/certificates` | `pcert-` | |
 | Power BI Embedded | `Microsoft.PowerBIDedicated/capacities` | `pbi-` | |
 | Time Series Insights environment | `Microsoft.TimeSeriesInsights/environments` | `tsi-` | |
-
-## Azure Virtual Desktop
-
-| Asset type | Resource provider namespace/Entity | Abbreviation | Length Restrictions |
-|--|--|--|--|
-| Virtual desktop host pool | | `vdpool-` | |
-| Virtual desktop application group | | `vdag-` | |
-| Virtual desktop workspace | | `vdws-` | |
 
 ## Developer tools
 
